@@ -1,122 +1,185 @@
 {
-    "locations": [
-        {
-            "id": 1,
-            "city": "Nashville",
-            "address":"700 Flossie Dam",
-            "phoneNumber": "772-771-9586",
-            "squareFootage": 3000,
-            "handicapAccessable": true
-        },
-        {
-            "id": 2,
-            "city": "Boro",
-            "address":"111 Glossie Dam",
-            "phoneNumber": "772-111-9586",
-            "squareFootage": 2000,
-            "handicapAccessable": true
-        }
-    ],
-    "productTypes":[
-        {
-            "id": 1,
-            "name": "Gum"
-        },
-        {
-            "id": 2,
-            "name": "Chocolate"
-        },
-        {
-            "id": 3,
-            "name": "Hard Candy"
-        },
-        {
-            "id": 4,
-            "name": "Soda"
-        }
-    ],
-    "products":[
-        {
-            "id": 1,
-            "name": "Double Bubble",
-            "productTypeId": 1
-        },
-        {
-            "id": 2,
-            "name": "Snickers",
-            "productTypeId": 2
-        },
-        {
-            "id": 3,
-            "name": "Jolly Rancher",
-            "productTypeId": 3
-        },
-        {
-            "id": 4,
-            "name": "Mountain Dew",
-            "productTypeId": 4
-        },
-        {
-            "id": 5,
-            "name": "Big League Chew",
-            "productTypeId": 1
-        },
-        {
-            "id": 6,
-            "name": "Hershey",
-            "productTypeId": 2
-        },
-        {
-            "id": 7,
-            "name": "Jawbreaker",
-            "productTypeId": 3
-        },
-        {
-            "id": 8,
-            "name": "Coke",
-            "productTypeId": 4
-        }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "Dion Stoade",
-            "address": "6866 4th Court",
-            "email": "dstoade0@cornell.edu"
-        },
-        {
-            "id": 2,
-            "name": "Windy Thorneloe",
-            "address": "59924 Beilfuss Center",
-            "email": "wthorneloe1@usa.gov"
-        },
-        {
-            "id": 3,
-            "name": "Hillie Phillpotts",
-            "address": "21 Straubel Point",
-            "email": "hphillpotts2@rakuten.co.jp"
-        }
-    ],
-    "productsByLocations":[
-        {
-            "id": 1,
-            "productId": 1,
-            "locationId": 2
-        }
-    ],
-    "employees": [
-        {
-            "id": 1,
-            "name": "Tom Schamberger",
-            "specialty": "iPhone"
-        },
-        {
-            "id": 2,
-            "name": "Rose Schmitt",
-            "specialty": "Printers"
-        }
-    ],
-    
-    "customer":[],
-    "purchases":[]
+  "locations": [
+    {
+      "id": 1,
+      "city": "Nashville",
+      "address": "700 Flossie Dam",
+      "phoneNumber": "772-771-9586",
+      "squareFootage": 3000,
+      "handicapAccessable": true
+    },
+    {
+      "id": 2,
+      "city": "Boro",
+      "address": "111 Glossie Dam",
+      "phoneNumber": "772-111-9586",
+      "squareFootage": 2000,
+      "handicapAccessable": true
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "name": "Gum"
+    },
+    {
+      "id": 2,
+      "name": "Chocolate"
+    },
+    {
+      "id": 3,
+      "name": "Hard Candy"
+    },
+    {
+      "id": 4,
+      "name": "Soda"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Double Bubble",
+      "price": 25.99,
+      "productTypeId": 1
+    },
+    {
+      "id": 2,
+      "name": "Snickers",
+      "price": 24.99,
+      "productTypeId": 2
+    },
+    {
+      "id": 3,
+      "name": "Jolly Rancher",
+      "price": 23.99,
+      "productTypeId": 3
+    },
+    {
+      "id": 4,
+      "name": "Mountain Dew",
+      "price": 2.99,
+      "productTypeId": 4
+    },
+    {
+      "id": 5,
+      "name": "Big League Chew",
+      "price": 12.99,
+      "productTypeId": 1
+    },
+    {
+      "id": 6,
+      "name": "Hershey",
+      "price": 21.99,
+      "productTypeId": 2
+    },
+    {
+      "id": 7,
+      "name": "Jawbreaker",
+      "price": 22.99,
+      "productTypeId": 3
+    },
+    {
+      "id": 8,
+      "name": "Coke",
+      "price": 20.99,
+      "productTypeId": 4
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Dion Stoade",
+      "address": "6866 4th Court",
+      "email": "dstoade0@cornell.edu"
+    },
+    {
+      "id": 2,
+      "name": "Windy Thorneloe",
+      "address": "59924 Beilfuss Center",
+      "email": "wthorneloe1@usa.gov"
+    },
+    {
+      "id": 3,
+      "name": "Hillie Phillpotts",
+      "address": "21 Straubel Point",
+      "email": "hphillpotts2@rakuten.co.jp"
+    },
+    {
+      "name": "John Doe",
+      "address": "123 Fake St",
+      "email": "john@doe.com",
+      "id": 4
+    }
+  ],
+  "productsByLocations": [
+    {
+      "id": 1,
+      "productId": 1,
+      "locationId": 2
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Tom Schamberger",
+      "locationId": 2,
+      "manager": true,
+      "fullTime": true,
+      "hourlyRate": 12
+    },
+    {
+      "id": 2,
+      "name": "Rose Schmitt",
+      "locationId": 2,
+      "manager": true,
+      "fullTime": true,
+      "hourlyRate": 12
+    },
+    {
+      "name": "John Doe",
+      "locationId": 1,
+      "manager": false,
+      "fullTime": false,
+      "hourlyRate": 40,
+      "id": 3
+    }
+  ],
+  "customer": [],
+  "purchases": [
+    {
+      "customerId": 4,
+      "productId": 1,
+      "id": 3
+    },
+    {
+      "customerId": 4,
+      "productId": 5,
+      "id": 4
+    },
+    {
+      "customerId": 4,
+      "productId": 2,
+      "id": 5
+    },
+    {
+      "customerId": 4,
+      "productId": 4,
+      "id": 6
+    },
+    {
+      "customerId": 4,
+      "productId": 1,
+      "id": 7
+    },
+    {
+      "customerId": 4,
+      "productId": 2,
+      "id": 8
+    },
+    {
+      "customerId": 4,
+      "productId": 3,
+      "id": 9
+    }
+  ]
 }
